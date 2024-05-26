@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Home.css">
+    <link rel="shortcut icon" href="../IMG/BrilhoMark.png" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Stoke' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <title>Resfriamento Global</title> <!--nome da pagina-->
+</head>
+
+<body>
+    <div class="Corpo">
+        <div class="Topo">
+            <a href="Home.html" target="_self" rel="prev"><img src="../IMG/httpsim.gei7oHh6C.png"
+                    alt="Logo Resfriamento Global" class="Logo"></a>
+
+            <div class="Infor">
+                <address>Av. Novaya Zemlya, 1870</address>
+                <div>Cel:(21) 98765-4321</div>
+                <a href="mailto:contato@resfriglob.com.br" class="Mail">contato@resfriglob.com.br</a>
+            </div>
+            <div style="position: relative; top: 50%; width: 550px; height: 2px; background-color: white;"></div>
+        </div>
+
+        <ul class="Menu">
+            <li><img src="../IMG/BrilhoMark.png"><a href="./Apresentação.html" target="_self" rel="prev">Apresentação</a></li>
+            <li><img src="../IMG/BrilhoMark.png"><a href="./Tipo.html" target="_self" rel="prev">Tipos</a></li>
+            <li><img src="../IMG/BrilhoMark.png"><a href="./Estoque.html" target="_self" rel="prev">Estoque</a></li>
+            <li><img src="../IMG/BrilhoMark.png"><a href="./Cadastro.html" target="_self" rel="prev" style="color: #99EEEE;">Cadastro</a></li>
+            <li><img src="../IMG/BrilhoMark.png"><a href="./Compras.html" target="_self" rel="prev">Compras</a></li>
+        </ul>
+
+        <div class="Centro">
+            <div class="container">
+                <span>Cadastro</span>
+
+                <fieldset class="fildsetClass">
+                    <legend>Identficação</legend>
+                    <div class="emailCadastro">
+                        <label>E-mail:</label>
+                        <input type="email" />
+                    </div>
+                    <div class="containerSenha">
+                        <div class="senhaCadastro">
+                            <label>Senha:</label>
+                            <input type="password" />
+                        </div>
+                        <div class="confirmeSenha">
+                            <label>Confirme:</label>
+                            <input type="password" />
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="fildsetClass">
+                    <legend>Dados Pessoais</legend>
+                    <div class="nomeCadastro">
+                        <label>Nome:</label>
+                        <input type="text" />
+                    </div>
+                    <div class="endereçoCadastro">
+                        <label>Endereço:</label>
+                        <textarea rows="4" cols="50"></textarea>
+                    </div>
+                    <div class="containerTelefone">
+                        <div class="telefone">
+                            <label>Telefone:</label>
+                            <input type="tel" />
+                        </div>
+                        <div class="celular">
+                            <label>Celular:</label>
+                            <input type="tel" />
+                        </div>
+                    </div>
+
+                    <Box class="containerNascimentoEsexo">
+                        <fieldset class="fildseatNascimento">
+                            <legend>Nascimento:</legend>
+                            <div>
+                                <input type="number" />
+                                /
+                                <input type="number" />
+                                /
+                                <input type="number" />
+
+                            </div>
+                        </fieldset>
+                        <fieldset class="fildseatSexo">
+                            <legend>Sexo:</legend>                       
+                            <div>
+                                <input type="radio" id="adidas" name="brand" value="adidas">
+                                <label for="adidas">Mas</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="nike" name="brand" value="nike" checked>
+                                <label for="nike">Fem</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="puma" name="brand" value="puma">
+                                <label for="puma">Outro</label>
+                            </div>
+                        </fieldset>
+                    </Box>
+                </fieldset>
+                <div class="containerButtons">
+                    <button type="submit">Cadastrar</button>
+                    <button type="button">Limpar</button>
+                </div>
+            </div>
+
+        </div>

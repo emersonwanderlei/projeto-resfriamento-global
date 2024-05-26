@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Home.css">
+    <link rel="shortcut icon" href="../IMG/BrilhoMark.png" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Stoke' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <title>Resfriamento Global</title> <!--nome da pagina-->
+</head>
+
+<body>
+    <div class="Corpo">
+        <div class="Topo">
+            <a href="Home.html" target="_self" rel="prev"><img src="../IMG/httpsim.gei7oHh6C.png"
+                    alt="Logo Resfriamento Global" class="Logo"></a>
+
+            <div class="Infor">
+                <address>Av. Novaya Zemlya, 1870</address>
+                <div>Cel:(21) 98765-4321</div>
+                <a href="mailto:contato@resfriglob.com.br" class="Mail">contato@resfriglob.com.br</a>
+            </div>
+            <div style="position: relative; top: 50%; width: 550px; height: 2px; background-color: white;"></div>
+        </div>
+
+        <ul class="Menu">
+            <li><img src="../IMG/BrilhoMark.png"><a href="./Apresentação.html" target="_self" rel="prev">Apresentação</a></li>
+            <li><img src="../IMG/BrilhoMark.png"><a href="./Tipo.html" target="_self" rel="prev">Tipos</a></li>
+            <li><img src="../IMG/BrilhoMark.png"><a href="./Estoque.html" target="_self" rel="prev">Estoque</a></li>
+            <li><img src="../IMG/BrilhoMark.png"><a href="./Cadastro.html" target="_self" rel="prev">Cadastro</a></li>
+            <li><img src="../IMG/BrilhoMark.png"><a href="./Compras.html" target="_self" rel="prev" style="color: #99EEEE;">Compras</a></li>
+        </ul>
+
+        <div class="Centro">
+            <div class="container">
+                <p class="pCompras">Compras</p>
+
+                <fieldset class="fildsetClass">
+                    <legend>Identificação</legend>
+                    <div class="containerEmailEsenha">
+                        <div>
+                            <label>Email:</label>
+                            <input class="inputEmail" type="email">
+                        </div>
+                        <div>
+                            <label>Senha:</label>
+                            <input class="inputSenha" type="password">
+                        </div>
+                    </div>
+
+                    <p class="linkParaRegistre">
+                        Se você ainda não tem cadastro clique
+                        <strong class="linkAqui"> aqui!</strong>
+                    </p>
+
+                </fieldset>
+
+                <fieldset class="fildsetClass">
+                    <legend>Lista de Compras</legend>
+                    <div class="containerListaDeCompras">
+                        <div class="containerProdutos">
+                            <label>Produtos:</label>
+                            <select>
+                                <option>----</option>
+                                <option>
+                                    <optgroup label="Split">
+                                        <option>Springer Split 12000</option>
+                                    </optgroup>
+                                    <optgroup label="Parede">
+                                        <option>Springer Midea 12000</option>
+                                        <option>Consul 7500</option>
+                                    </optgroup>
+                                    <optgroup label="Portátil">
+                                        <option>Elgin Eco Cube 9000</option>
+                                    </optgroup>
+                                </option>
+                            </select>
+                        </div>
+                        <button class="incluir" type="button">Incluir</button>
+                    </div>
+                    <div class="textareaProdutos">
+                        <textarea name="" id="" cols="62" rows="5"></textarea>
+                    </div>
+                    <div class="containerValor">
+                        <p>Valor: R$</p>
+                        <input class="inputValor" type="text">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Dados do Cartão</legend>
+                    <div class="containerNumberValidadeParcelas">
+                        <div>
+                            <div class="containerFlex">
+                                <p>Número:</p>
+                                <input type="number" />
+                                <input type="number" />
+                                <input type="number" />
+                                <input type="number" />
+                            </div>
+                            <div class="containerFlex">
+                                <p>Validade:</p>
+                                <input type="number">
+                                <input class="validadeInput" type="number">
+                            </div>
+                            <div class="containerFlex">
+                                <p>Parcelas:</p>
+                                <input type="number">
+                                <p>x Sem Juros</p>
+                            </div>
+                        </div>
+                        <div class="containerBandeiras">
+                            <div class="containerCartões">
+                                <fieldset>
+                                    <legend>Bandeira:</legend>
+                                    <div>
+                                        <input id="visa" name="brand" value="Visa" type="radio">
+                                        <label for="visa">Visa</label>
+                                    </div>
+                                    <div>
+                                        <input id="master" name="brand" value="Master" type="radio">
+                                        <label for="master">Master</label>
+                                    </div>
+                                    <div>
+                                        <input id="elo" value=elo" name="brand" type="radio">
+                                        <label for="elo">Elo</label>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="buttonConfirmarLimpar">
+                    <button class="buttonConfirmar">Confirmar</button>
+                    <button class="buttonLimpar">limpar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
